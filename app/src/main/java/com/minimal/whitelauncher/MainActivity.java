@@ -3,7 +3,7 @@ package com.minimal.whitelauncher;
 import android.app.Activity;
 import android.content.*;
 import android.content.pm.*;
-import android.graphics.*;i
+import android.graphics.*;
 import android.os.Bundle;
 import android.view.*;
 import java.util.*;
