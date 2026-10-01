@@ -1,0 +1,14 @@
+plugins {
+    id 'com.android.application'
+}
+android {
+    namespace 'com.minimal.whitelauncher'
+    compileSdk 33
+    defaultConfig {
+        applicationId "com.minimal.whitelauncher"
+        minSdk 21
+        targetSdk 29
+        versionCode 1
+        versionName "1.0"
+    }
+}
