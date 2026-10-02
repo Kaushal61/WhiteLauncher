@@ -5,8 +5,9 @@
         <activity
     android:name=".MainActivity"
     android:launchMode="singleTask"
+    android:clearTaskOnLaunch="true"
     android:stateNotNeeded="true"
-    android:theme="@android:style/Theme.Wallpaper.NoTitleBar"
+    android:theme="@android:style/Theme.Black.NoTitleBar"
     android:exported="true">
     
     <intent-filter>
