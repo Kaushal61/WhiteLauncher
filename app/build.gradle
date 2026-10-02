@@ -1,19 +1,18 @@
-plugins {
-    id 'com.android.application'
-}
+apply plugin: 'com.android.application'
+
 android {
-    namespace 'com.minimal.whitelauncher'
-    compileSdk 33
+    compileSdkVersion 30
+
     defaultConfig {
         applicationId "com.minimal.whitelauncher"
-        minSdk 21
-        targetSdk 29
+        minSdkVersion 21
+        targetSdkVersion 30
         versionCode 1
         versionName "1.0"
-        
-        lintOptions {
+    }
+
+    lintOptions {
         checkReleaseBuilds false
         abortOnError false
     }
 }
-    }
